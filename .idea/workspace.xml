@@ -4,11 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="da1a86c9-f694-4649-9f05-388eebe363ba" name="Changes" comment="Examined the dataset and selected the columns I found to be useful.&#10;&#10;Started parsing the dataframe.&#10;&#10;Attempting to get all seasons now (2000 - 2026)">
-      <change afterPath="$PROJECT_DIR$/src/htmlscrap.py" afterDir="false" />
+    <list default="true" id="da1a86c9-f694-4649-9f05-388eebe363ba" name="Changes" comment="Completed getting all seasons.&#10;&#10;Added a year column to the end of each record&#10;&#10;Added an IsChamp column to the end of each record&#10;&#10;I now have a complete dataset to work with">
+      <change afterPath="$PROJECT_DIR$/src/analysis/champions.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/analysis/examine_data.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/analysis/predict_champ.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ProcessingTest.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/processing.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/champions.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/htmlscrap.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/collection/htmlscrape.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/processing.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/collection/processing.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,12 +57,21 @@
   "keyToString": {
     "Python.Html_scrap.executor": "Run",
     "Python.ProcessingTest.executor": "Run",
+    "Python.champions.executor": "Run",
+    "Python.examine_data.executor": "Run",
     "Python.htmlscrap.executor": "Run",
+    "Python.predict_champ.executor": "Run",
     "Python.processing.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "master"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\User\PycharmProjects\DNA_of_Victory\src\analysis" />
+      <recent name="C:\Users\User\PycharmProjects\DNA_of_Victory\src\collection" />
+    </key>
+  </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -91,7 +104,15 @@
       <option name="project" value="LOCAL" />
       <updated>1781216623406</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Completed getting all seasons.&#10;&#10;Added a year column to the end of each record&#10;&#10;Added an IsChamp column to the end of each record&#10;&#10;I now have a complete dataset to work with">
+      <option name="closed" value="true" />
+      <created>1781384647554</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1781384647554</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="UnknownFeatures">
@@ -100,6 +121,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Creating the file structure" />
     <MESSAGE value="Examined the dataset and selected the columns I found to be useful.&#10;&#10;Started parsing the dataframe.&#10;&#10;Attempting to get all seasons now (2000 - 2026)" />
-    <option name="LAST_COMMIT_MESSAGE" value="Examined the dataset and selected the columns I found to be useful.&#10;&#10;Started parsing the dataframe.&#10;&#10;Attempting to get all seasons now (2000 - 2026)" />
+    <MESSAGE value="Completed getting all seasons.&#10;&#10;Added a year column to the end of each record&#10;&#10;Added an IsChamp column to the end of each record&#10;&#10;I now have a complete dataset to work with" />
+    <option name="LAST_COMMIT_MESSAGE" value="Completed getting all seasons.&#10;&#10;Added a year column to the end of each record&#10;&#10;Added an IsChamp column to the end of each record&#10;&#10;I now have a complete dataset to work with" />
   </component>
 </project>

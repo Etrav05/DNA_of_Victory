@@ -5,3 +5,5 @@ jupyter
 lxml
 requests
 beautifulsoup4
+pandasql
+scipy
